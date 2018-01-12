@@ -1,0 +1,9 @@
+{% if all_classzes %}
+    <ul>
+        {% for classz in all_classzes %}
+        <li><a href="/student/{{ classz.id }}/">{{ classz.division}}</a> </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <h3>No Students</h3>
+{% endif %}

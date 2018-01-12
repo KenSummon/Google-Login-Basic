@@ -1,0 +1,60 @@
+<h1>Student Records</h1>
+<ul>
+    {% for classz in all_classzes1 %}
+    {{ classz.division }}
+    {% endfor %}
+
+</ul>
+
+<ul>
+    {% for student in all_students_in_classz1 %}
+    <li>{{ student.name }} - {{ student.marks }}</li>
+    {% endfor %}
+
+</ul>
+
+<ul>
+    {% for classz in all_classzes2 %}
+    {{ classz.division }}
+    {% endfor %}
+
+</ul>
+
+<ul>
+    {% for student in all_students_in_classz2 %}
+    <li>{{ student.name }} - {{ student.marks }}</li>
+    {% endfor %}
+
+</ul>
+
+<ul>
+    {% for classz in all_classzes3 %}
+    {{ classz.division }}
+    {% endfor %}
+
+</ul>
+
+
+<ul>
+    {% for student in all_students_in_classz3 %}
+    <li>{{ student.name }} - {{ student.marks }}</li>
+    {% endfor %}
+
+</ul>
+
+<ul>
+    {% for classz in all_classzes4 %}
+    {{ classz.division }}
+    {% endfor %}
+
+</ul>
+
+
+<ul>
+    {% for student in all_students_in_classz4 %}
+    <li>{{ student.name }} - {{ student.marks }} </li>
+    {% endfor %}
+
+</ul>
+
+
